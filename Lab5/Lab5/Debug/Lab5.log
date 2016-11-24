@@ -1,0 +1,4 @@
+﻿  Game.cpp
+c:\users\c00205948\desktop\lab5\lab5\game.h(32): warning C4305: 'argument': truncation from 'double' to 'float'
+  Lab5.vcxproj -> C:\Users\c00205948\Desktop\Lab5\Debug\Lab5.exe
+  Lab5.vcxproj -> C:\Users\c00205948\Desktop\Lab5\Debug\Lab5.pdb (Partial PDB)

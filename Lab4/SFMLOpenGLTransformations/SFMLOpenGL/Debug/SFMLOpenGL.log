@@ -1,0 +1,4 @@
+﻿  Game.cpp
+c:\users\jamai_000\desktop\practical_04_sfmlopengltransformations\sfmlopengltransformations\sfmlopengl\game.cpp(63): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  SFMLOpenGL.vcxproj -> C:\Users\jamai_000\Desktop\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\Debug\SFMLOpenGL.exe
+  SFMLOpenGL.vcxproj -> C:\Users\jamai_000\Desktop\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\Debug\SFMLOpenGL.pdb (Full PDB)
