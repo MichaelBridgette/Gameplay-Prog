@@ -25,11 +25,19 @@ private:
 	void draw();
 	void unload();
 
-	Vector3 v1 = Vector3(0.0f, 1.0f, -5.0f);
-	Vector3 v2 = Vector3(-1.0f, -1.0f, -5.0f);
-	Vector3 v3 = Vector3(1.0f, 0.0f, -5.0f);
+	Vector3 v1 = Vector3(-1.0f, -1.0f, -5.0f);
+	Vector3 v2 = Vector3(0.0f, 0.0f, -5.0f);
+	Vector3 v3 = Vector3(1.0f, -1.0f, -5.0f);
 
-	Matrix3 m1 = Matrix3().RotationZ(0.1);
+	Matrix3 m1 = Matrix3().RotationZ(0.02);
+
+	
+
+
+	Matrix3 m2 = Matrix3(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1);
+
+	Matrix3 m3 = Matrix3(1, 0, 0.001, 0, 1, 0.001, 0, 0, 1);
+	
 	
 
 

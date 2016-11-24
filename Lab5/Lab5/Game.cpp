@@ -56,10 +56,18 @@ void Game::initialize()
 void Game::update()
 {
 	
-	v1 = m1*v1;
+	/*v1 = m1*v1;
 	v2 = m1*v2;
-	v3 = m1*v3;
+	v3 = m1*v3;*/
 	
+	/*v1 = m2*v1;
+	v2 = m2*v2;
+	v3 = m2*v3;*/
+
+	v1 = m3*v1;
+	v2 = m3*v2;
+	v3 = m3*v3;
+
 }
 
 void Game::draw()
@@ -68,9 +76,9 @@ void Game::draw()
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 	glBegin(GL_TRIANGLES); 
 	{ 
-		glVertex3f(v1.GetXf(), v1.GetYf(), v1.GetZf()); 
-		glVertex3f(v2.GetXf(), v3.GetYf(), v2.GetZf()); 
-		glVertex3f(v3.GetXf(), v3.GetYf(), v3.GetZf()); 
+		glVertex3d(v1.GetXf(), v1.GetYf(), v1.GetZf()); 
+		glVertex3d(v2.GetXf(), v2.GetYf(), v2.GetZf()); 
+		glVertex3d(v3.GetXf(), v3.GetYf(), v3.GetZf()); 
 	} 
 	glEnd();
 	

@@ -100,10 +100,11 @@ void Game::update()
 	}
 	
 
-	glRotatef(1.0f, 0.0f, 0.0f, 1.0f); //first para is for the angle you wish to rotate with, the next 3 is for the axis you wish to rotate on
-	glTranslatef(1.0f, 0.0f, 0.0f); //glTranslate produces a translation by x y z . The current matrix is multiplied by this translation matrix, with the product replacing the current matrix, 
-	glScalef(1.0f, 1.0f, 1.0f); //The current matrix is multiplied by this scale matrix, and the product replaces the current matrix 
+	glRotatef(0.2f, 0.0f, 0.0f, 1.0f); //first para is for the angle you wish to rotate with, the next 3 is for the axis you wish to rotate on
+	glTranslatef(0.002f, 0.0f, 0.0f); //glTranslate produces a translation by x y z . The current matrix is multiplied by this translation matrix, with the product replacing the current matrix, 
+	glScalef(1.0001f, 1.0001f, 1.0f); //The current matrix is multiplied by this scale matrix, and the product replaces the current matrix 
 	cout << "Update up" << endl;
+	
 }
 
 void Game::draw()

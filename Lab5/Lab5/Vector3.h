@@ -16,9 +16,9 @@ public:
     const double GetX();
 	const double GetY();
 	const double GetZ();
-	const float GetXf();
-	const float GetYf();
-	const float GetZf();
+	float GetXf();
+	float GetYf();
+	float GetZf();
 	double Length();
 	double LengthSquared();
 	void Normalise();

@@ -43,11 +43,11 @@ public:
 	Matrix3 Inverse();
 	Matrix3 Rotation(int angle);
 	Matrix3 Translate(int dx, int dy);
-	Matrix3 Scale(int dx, int dy);
+	Matrix3 Scale(float dx, float dy);
 	Matrix3 RotationX(int angle);
 	Matrix3 RotationY(int angle);
 	Matrix3 RotationZ(float angle);
-	Matrix3 Scale3D(int dx);
+	Matrix3 Scale3D(float dx);
 
 
 };

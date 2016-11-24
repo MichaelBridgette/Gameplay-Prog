@@ -54,17 +54,17 @@ const double Vector3::GetZ()
 	return m_z;
 }
 
-const float Vector3::GetXf()
+ float Vector3::GetXf()
 {
 	return (float)m_x;
 }
 
-const float Vector3::GetYf()
+ float Vector3::GetYf()
 {
 	return (float)m_y;
 }
 
-const float Vector3::GetZf()
+ float Vector3::GetZf()
 {
 	return (float)m_z;
 }
